@@ -57,7 +57,7 @@ aprendizaje-de-maquinas/
 ## 👤 Autor
 
 **Paul Richard Gálvez Fernández**
-Ingeniero de Ejecución en Control e Instrumentación Industrial
+Ingeniero de Ejecución en Control e Instrumentación Industrial - Universidad Técnica Federico Santa María
 Magíster en Ingeniería Industrial – Universidad Andrés Bello
 [GitHub Profile](https://github.com/) *(agrega aquí tu enlace cuando quieras)*
 
