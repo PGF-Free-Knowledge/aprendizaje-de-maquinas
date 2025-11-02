@@ -1,0 +1,2 @@
+# Introducción
+Este archivo pertenece a la subcarpeta teoria.
