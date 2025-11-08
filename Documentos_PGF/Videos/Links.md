@@ -1,7 +1,9 @@
 Aprendizaje de Aprendizaje by PGF
 
 Acá estoy desarrollando un aprendizaje autónomo de clases que se encuentran gratis en la web
+
 Sumado a ello de Universidades altamente reconocidas y con Académicos de Alto Nivel
+
 No me queda más, que aprovechar lo que se encuentra a disposición.
 
 Videos asociados a los Capítulos de:
