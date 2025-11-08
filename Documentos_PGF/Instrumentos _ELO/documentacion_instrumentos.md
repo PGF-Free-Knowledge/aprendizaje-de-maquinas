@@ -49,8 +49,7 @@ Los resultados incluyen:
 
 > 💡 Ejemplo de gráfico generado:
 >
-> ![Gráfico de Estado de Instrumentos](https://raw.githubusercontent.com/PGF-Free-Knowledge/aprendizaje-de-maquinas/main/Documentos_PGF/Instrumentos_ELO/grafico_estado_instrumentos.png)
-
+> https://cautious-chainsaw-wrqp7j977qvgcgxp9.github.dev/
 ---
 
 ## 🧠 **5. Código base**
