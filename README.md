@@ -59,7 +59,7 @@ aprendizaje-de-maquinas/
 **Paul Richard Gálvez Fernández**
 Ingeniero de Ejecución en Control e Instrumentación Industrial - Universidad Técnica Federico Santa María
 Magíster en Ingeniería Industrial – Universidad Andrés Bello
-[GitHub Profile](https://github.com/) *(agrega aquí tu enlace cuando quieras)*
+[GitHub Profile](https://github.com/) *(PGF)*
 
 ---
 

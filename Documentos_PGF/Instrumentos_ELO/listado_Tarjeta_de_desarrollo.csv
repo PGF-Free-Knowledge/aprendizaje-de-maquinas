@@ -1,0 +1,82 @@
+﻿Descripción del Activo Fijo,Marca,Modelo,Instrumento (Especificación),Estado del Activo Fijo,Cantidad
+Tarjeta de desarrollo,ANALOG DEVICE,ADALM-PLUTO,SDR Modulo de Aprendizaje,Operativo,10
+Tarjeta de desarrollo,ANALOG DEVICE,ADALM-PLUTO,--- Subtotal ---,,10
+Tarjeta de desarrollo,ANALOG DEVICE,ADSP-21160,Tarjeta ADSP-21160 M,Sin Uso,1
+Tarjeta de desarrollo,ANALOG DEVICE,ADSP-21160,--- Subtotal ---,,1
+Tarjeta de desarrollo,AVNET,AES-ZUB-1CG-DK-G,Tarjeta de Desarrollo Arquitectura MD-Xilinx Zynq UltraScale+,Operativo,3
+Tarjeta de desarrollo,AVNET,AES-ZUB-1CG-DK-G,--- Subtotal ---,,3
+Tarjeta de desarrollo,Crossbow,Imote2,WSN-Imote2,Sin Uso,4
+Tarjeta de desarrollo,Crossbow,Imote2,--- Subtotal ---,,4
+Tarjeta de desarrollo,DIGILENT,-,Tarjeta BASYS2,Operativo,10
+Tarjeta de desarrollo,DIGILENT,-,--- Subtotal ---,,10
+Tarjeta de desarrollo,DIGILENT,210-321,Analog Discovery 2,-,2
+Tarjeta de desarrollo,DIGILENT,210-321,Analog Discovery 2,Inoperativo,2
+Tarjeta de desarrollo,DIGILENT,210-321,Analog Discovery 2,Operativo,32
+Tarjeta de desarrollo,DIGILENT,210-321,--- Subtotal ---,,36
+Tarjeta de desarrollo,DIGILENT,NEXYS A7,ECE FPGA trainer board,-,1
+Tarjeta de desarrollo,DIGILENT,NEXYS A7,ECE FPGA trainer board,Operativo,24
+Tarjeta de desarrollo,DIGILENT,NEXYS A7,--- Subtotal ---,,25
+Tarjeta de desarrollo,DIGILENT,PB200-292 ,NEXYS 4 DDR,Inoperativo,4
+Tarjeta de desarrollo,DIGILENT,PB200-292 ,NEXYS 4 DDR,Operativo,26
+Tarjeta de desarrollo,DIGILENT,PB200-292 ,Tarjeta Nexys 7 DDR,-,2
+Tarjeta de desarrollo,DIGILENT,PB200-292 ,Tarjeta Nexys 7 DDR,Operativo,7
+Tarjeta de desarrollo,DIGILENT,PB200-292 ,--- Subtotal ---,,39
+Tarjeta de desarrollo,DIGILENT,STM5,Zed board,Operativo,2
+Tarjeta de desarrollo,DIGILENT,STM5,--- Subtotal ---,,2
+Tarjeta de desarrollo,DIGILENT,Spartan-3,Tarjeta FPGA,Sin Uso,10
+Tarjeta de desarrollo,DIGILENT,Spartan-3,--- Subtotal ---,,10
+Tarjeta de desarrollo,DIGILENT,Spartan-3e,Tarjeta FPGA,Sin Uso,5
+Tarjeta de desarrollo,DIGILENT,Spartan-3e,--- Subtotal ---,,5
+Tarjeta de desarrollo,DIGILENT,ZIBO ZINQ - 7000,ZIBO,-,3
+Tarjeta de desarrollo,DIGILENT,ZIBO ZINQ - 7000,ZIBO,Operativo,9
+Tarjeta de desarrollo,DIGILENT,ZIBO ZINQ - 7000,--- Subtotal ---,,12
+Tarjeta de desarrollo,DSPACE,1104,Tarjeta DSP Dspace 1104,-,1
+Tarjeta de desarrollo,DSPACE,1104,--- Subtotal ---,,1
+Tarjeta de desarrollo,Ettus Research,USRP-LF rev 4.5,Tarjeta USRP1,-,1
+Tarjeta de desarrollo,Ettus Research,USRP-LF rev 4.5,--- Subtotal ---,,1
+Tarjeta de desarrollo,OLIMEX,ARM AVR PIC MSP-430,ARM  AVR PIC,Inoperativo,1
+Tarjeta de desarrollo,OLIMEX,ARM AVR PIC MSP-430,ARM  AVR PIC,Operativo,10
+Tarjeta de desarrollo,OLIMEX,ARM AVR PIC MSP-430,Tarjeta MSP430 PIC,Operativo,2
+Tarjeta de desarrollo,OLIMEX,ARM AVR PIC MSP-430,--- Subtotal ---,,13
+Tarjeta de desarrollo,OLIMEX,ARM AVR PIC MSP-443,ARM  AVR PIC,Operativo,1
+Tarjeta de desarrollo,OLIMEX,ARM AVR PIC MSP-443,--- Subtotal ---,,1
+Tarjeta de desarrollo,OLIMEX,easy web,Tarjeta modular EASY WEB,Sin Uso,3
+Tarjeta de desarrollo,OLIMEX,easy web,--- Subtotal ---,,3
+Tarjeta de desarrollo,SPECTRUM DIGITAL,TMS3200C6748,DSP starter kit,Sin Uso,2
+Tarjeta de desarrollo,SPECTRUM DIGITAL,TMS3200C6748,EZDSP,Sin Uso,7
+Tarjeta de desarrollo,SPECTRUM DIGITAL,TMS3200C6748,Kit starter para tms320c6,Sin Uso,11
+Tarjeta de desarrollo,SPECTRUM DIGITAL,TMS3200C6748,Tarjeta EZDSP para TMS320F240X/TMS320F2812,Sin Uso,5
+Tarjeta de desarrollo,SPECTRUM DIGITAL,TMS3200C6748,--- Subtotal ---,,25
+Tarjeta de desarrollo,ST LIFE,1DB05A1,Expansión Bluetooh 1DB05A1,Operativo,30
+Tarjeta de desarrollo,ST LIFE,1DB05A1,--- Subtotal ---,,30
+Tarjeta de desarrollo,ST LIFE,6180,Núcleo de Expansión 6180,Operativo,31
+Tarjeta de desarrollo,ST LIFE,6180,--- Subtotal ---,,31
+Tarjeta de desarrollo,ST LIFE,IKS01A2,Núcleo IKS01A2,Operativo,28
+Tarjeta de desarrollo,ST LIFE,IKS01A2,--- Subtotal ---,,28
+Tarjeta de desarrollo,ST LIFE,L47626,Núcleo 64 L47626,Operativo,36
+Tarjeta de desarrollo,ST LIFE,L47626,--- Subtotal ---,,36
+Tarjeta de desarrollo,ST LIFE,STM32F411,Núcleo STM32F411,Operativo,18
+Tarjeta de desarrollo,ST LIFE,STM32F411,--- Subtotal ---,,18
+Tarjeta de desarrollo,Synapse,Ek2500,Evaluation kit ek2500,Operativo,1
+Tarjeta de desarrollo,Synapse,Ek2500,--- Subtotal ---,,1
+Tarjeta de desarrollo,Tektronix,9703A,Tarjeta de mensaje,-,1
+Tarjeta de desarrollo,Tektronix,9703A,Tarjeta de mensaje,Operativo,1
+Tarjeta de desarrollo,Tektronix,9703A,--- Subtotal ---,,2
+Tarjeta de desarrollo,Texas Instruments,AM 527x,Kit am572x evaluation module,Operativo,1
+Tarjeta de desarrollo,Texas Instruments,AM 527x,--- Subtotal ---,,1
+Tarjeta de desarrollo,Texas Instruments,DSP 6711,DSP 320,Sin Uso,11
+Tarjeta de desarrollo,Texas Instruments,DSP 6711,--- Subtotal ---,,11
+Tarjeta de desarrollo,Texas Instruments,PCM 3003 AUDIO, DSP TMS 320C6748,Inoperativo,1
+Tarjeta de desarrollo,Texas Instruments,PCM 3003 AUDIO, DSP TMS 320C6748,Operativo,7
+Tarjeta de desarrollo,Texas Instruments,PCM 3003 AUDIO,--- Subtotal ---,,8
+Tarjeta de desarrollo,Texas Instruments,TMDSEVM572X,TMS 572X Mod/Evaluación,Operativo,14
+Tarjeta de desarrollo,Texas Instruments,TMDSEVM572X,--- Subtotal ---,,14
+Tarjeta de desarrollo,Texas Instruments,Tms320C6748 dsp, DSP TMS 320C6748,Inoperativo,7
+Tarjeta de desarrollo,Texas Instruments,Tms320C6748 dsp, DSP TMS 320C6748,Operativo,4
+Tarjeta de desarrollo,Texas Instruments,Tms320C6748 dsp, DSP TMS 320C6748,Sin Uso,2
+Tarjeta de desarrollo,Texas Instruments,Tms320C6748 dsp,--- Subtotal ---,,13
+Tarjeta de desarrollo,USM,-,Tarjeta EASY WEB con cable de alimentación (rojo-negro),Sin Uso,1
+Tarjeta de desarrollo,USM,-,--- Subtotal ---,,1
+Tarjeta de desarrollo,USM,XA3S200-5FT256,KIT FPGA- SPARTAN3 V1.02 2006,Sin Uso,2
+Tarjeta de desarrollo,USM,XA3S200-5FT256,--- Subtotal ---,,2
+TOTAL GENERAL,,,,,397
