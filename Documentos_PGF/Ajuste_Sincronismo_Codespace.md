@@ -1,3 +1,21 @@
+# Resolución de conflicto Git en Codespaces
+
+Este es el registro completo del proceso de resolución de conflicto entre la carpeta `Instrumentos_ELO` y sus archivos duplicados.
+
+---
+
+### 💻 Registro del terminal
+
+```bash
+@PGF-Free-Knowledge ➜ /workspaces/aprendizaje-de-maquinas (main) $ git config pull.rebase false
+@PGF-Free-Knowledge ➜ /workspaces/aprendizaje-de-maquinas (main) $ git pull
+CONFLICT (rename/rename): Documentos_PGF/Instrumentos _ELO/analisis_instruementos.ipynb renamed to ...
+...
+@PGF-Free-Knowledge ➜ /workspaces/aprendizaje-de-maquinas (main) $ git push
+Enumerating objects: 26, done.
+...
+@PGF-Free-Knowledge ➜ /workspaces/aprendizaje-de-maquinas (main) $
+
 Secuencia de solución - Error de sincronismo
 
 @PGF-Free-Knowledge ➜ /workspaces/aprendizaje-de-maquinas (main) $ git config pull.rebase false
@@ -95,4 +113,4 @@ Total 21 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (3/3), done.
 To https://github.com/PGF-Free-Knowledge/aprendizaje-de-maquinas
    8c60ccc..40d6f90  main -> main
-@PGF-Free-Knowledge ➜ /workspaces/aprendizaje-de-maquinas (main) $ 
+@PGF-Free-Knowledge ➜ /workspaces/aprendizaje-de-maquinas (main) $
