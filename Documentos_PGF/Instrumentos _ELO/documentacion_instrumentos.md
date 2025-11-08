@@ -48,8 +48,20 @@ Los resultados incluyen:
 4. Totales generales y subtotales resaltados con formato legible  
 
 > 💡 Ejemplo de gráfico generado:
->
-> https://cautious-chainsaw-wrqp7j977qvgcgxp9.github.dev/
+## 🔹 Gráficos de Resultados
+
+### 1. Distribución por Estado
+![Distribución por Estado](Instrumentos_ELO/graficos/estados_Tarjeta_de_desarrollo.png)
+
+### 2. Distribución por Marca
+![Distribución por Marca](Instrumentos_ELO/graficos/marcas_Tarjeta_de_desarrollo.png)
+
+### 3. Distribución por Modelo
+![Distribución por Modelo](Instrumentos_ELO/graficos/modelos_Tarjeta_de_desarrollo.png)
+
+---
+
+> 
 ---
 
 ## 🧠 **5. Código base**
