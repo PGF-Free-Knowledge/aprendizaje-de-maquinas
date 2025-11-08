@@ -59,6 +59,9 @@ Los resultados incluyen:
 ### 3. Distribución por Modelo
 ![Distribución por Modelo](Instrumentos_ELO/graficos/modelos_Tarjeta_de_desarrollo.png)
 
+![Distribución por Estado](Documentos_PGF/Instrumentos_ELO/graficos/estados_Tarjeta_de_desarrollo.png)
+
+
 ---
 
 > 
