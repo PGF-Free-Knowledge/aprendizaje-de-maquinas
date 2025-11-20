@@ -8,7 +8,7 @@ Requisitos:
 
 Uso:
  Coloca 'Egreper.csv', 'Ejecxcuentas.csv' y el Excel de intranet
- 'Organización VAL GESTIÓN DEPTO ELECTRÓNICA - LO11GE.xlsx' en la misma carpeta
+ 'Organizacion_intranet.xlsx' en la misma carpeta
  y ejecuta:
  python conciliacion.py
 """
@@ -51,7 +51,7 @@ def try_parse_date(x):
 # ---------- CARGA ----------
 eg_path = 'Egreper.csv'
 ejec_path = 'Ejecxcuentas.csv'
-intranet_path = 'Organización VAL GESTIÓN DEPTO ELECTRÓNICA - LO11GE.xlsx'
+intranet_path = 'Organizacion_intranet.xlsx'
 
 eg = pd.read_csv(eg_path, engine='python', sep=None)
 ejec = pd.read_csv(ejec_path, engine='python', sep=None)
