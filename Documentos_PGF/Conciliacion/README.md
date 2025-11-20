@@ -1,13 +1,8 @@
 # Conciliación Argos ↔ Intranet - Departamento Electrónica
 
-Estructura:
-- `data/` → Archivos originales (.csv, .xlsx)
-- `src/` → Código de conciliación (conciliacion.py)
-- `output/` → Resultados: conciliacion_result.xlsx, gráficos
-- `requirements.txt` → Dependencias
+Este proyecto automatiza la conciliación entre fuentes administrativas del Departamento de Electrónica USM, generando reportes trazables y visualizaciones mensuales.
 
-**Uso (Codespaces):**
-1. Abrir Codespace.
-2. `pip install -r requirements.txt`
-3. `python src/conciliacion.py`
+---
+
+## 📁 Estructura del proyecto
 
