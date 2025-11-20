@@ -22,3 +22,8 @@ Presiona `Ctrl + S` para guardar el archivo.
 
 ¿Quieres que sigamos con otra sección como `🧯 Errores comunes`, `📌 Bitácora de ejecución`, o `🔐 Validación de rutas`? Te doy el texto listo para pegar, paso a paso.
 
+## 🧯 Errores comunes
+- Error al cargar archivos: revisar nombres y extensiones en `data/`
+- Error de ruta: verificar que se ejecuta desde `Documentos_PGF/Conciliacion`
+- Error de permisos: usar `chmod +x` si es necesario en Linux
+
