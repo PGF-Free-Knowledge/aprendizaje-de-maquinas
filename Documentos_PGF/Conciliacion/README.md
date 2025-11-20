@@ -8,3 +8,17 @@ Este proyecto automatiza la conciliación entre fuentes administrativas del Depa
 - Porcentaje de coincidencia entre fuentes
 - Registros faltantes en Argos o Intranet
 
+## 🧪 Ejemplo de ejecución
+```bash
+python src/conciliacion.py
+
+---
+
+### ✅ PASO 5  
+**Haz esto:**  
+Presiona `Ctrl + S` para guardar el archivo.
+
+---
+
+¿Quieres que sigamos con otra sección como `🧯 Errores comunes`, `📌 Bitácora de ejecución`, o `🔐 Validación de rutas`? Te doy el texto listo para pegar, paso a paso.
+
