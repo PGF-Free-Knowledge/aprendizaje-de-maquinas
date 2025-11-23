@@ -1,31 +1,49 @@
 import pandas as pd
 import os
 
-# Ruta base del repositorio
-BASE_PATH = "Documentos_PGF/Tratamiento_data"
-
-# Archivo original descargado desde Intranet
-input_path = os.path.join(BASE_PATH, "Organizacion_intranet.xlsx")
-
-# Archivo limpio de salida
-output_path = os.path.join(BASE_PATH, "Organizacion_intranet_limpio.csv")
+# Ruta del archivo de entrada y salida
+INPUT_FILE = "Organizacion_intranet.xlsx"
+OUTPUT_FILE = "Organizacion_intranet_limpio.csv"
 
 print("🔍 Leyendo archivo XLSX...")
-df = pd.read_excel(input_path, header=None)
 
-# Eliminar filas 0 y 1 (basura del archivo real)
-df = df.drop(index=[0, 1])
+# Verificar existencia del archivo
+if not os.path.isfile(INPUT_FILE):
+    raise FileNotFoundError(f"No encontré el archivo: {INPUT_FILE}")
 
-# La fila 2 contiene la cabecera verdadera
-df.columns = df.iloc[2]
-df = df.drop(index=[2]).reset_index(drop=True)
+# Leer archivo completo sin asumir encabezados
+df_raw = pd.read_excel(INPUT_FILE, header=None, engine="openpyxl")
 
-# Detectar columnas de dinero (las que tienen un $ en alguna fila)
-money_cols = [col for col in df.columns if df[col].astype(str).str.contains(r"\$").any()]
+# -------------------------------------------------------
+# 1) Eliminar filas basura arriba
+# En tu archivo: fila 0 = vacía, fila 1 = título o basura
+# La cabecera real está en fila 2
+# -------------------------------------------------------
+header_row = 2
+df = df_raw.copy()
+df.columns = df.iloc[header_row]
+df = df.iloc[header_row + 1:].reset_index(drop=True)
 
-print("💰 Columnas monetarias detectadas:", money_cols)
+# Limpia nombres de columnas
+df.columns = [str(c).strip() for c in df.columns]
 
-# Limpiar columnas de dinero
+print("✔ Cabecera aplicada. Columnas detectadas:")
+print(df.columns.tolist())
+
+# -------------------------------------------------------
+# 2) Detectar columnas monetarias
+# -------------------------------------------------------
+money_cols = [
+    col for col in df.columns
+    if df[col].astype(str).str.contains(r"\$", regex=True).any()
+]
+
+print("\n💰 Columnas monetarias detectadas:")
+print(money_cols)
+
+# -------------------------------------------------------
+# 3) Convertir texto monetario a números **SIN DECIMALES**
+# -------------------------------------------------------
 for col in money_cols:
     df[col] = (
         df[col]
@@ -35,10 +53,17 @@ for col in money_cols:
         .str.replace(",", ".", regex=False)
         .str.strip()
     )
-    df[col] = pd.to_numeric(df[col], errors="coerce")
 
-# Exportar CSV final
-df.to_csv(output_path, index=False, encoding="utf-8")
+    # Convertimos a número → luego a entero **sin decimales**
+    df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+    df[col] = df[col].astype(float).astype(int)
 
-print("✅ Archivo procesado correctamente.")
-print(f"📁 CSV generado: {output_path}")
+print("\n✔ Conversión de montos finalizada (sin decimales).")
+
+# -------------------------------------------------------
+# 4) Guardar CSV limpio
+# -------------------------------------------------------
+df.to_csv(OUTPUT_FILE, index=False, encoding="utf-8-sig")
+
+print(f"\n✅ Archivo optimizado guardado en: {OUTPUT_FILE}")
+print(f"Total filas procesadas: {len(df)}")
