@@ -60,4 +60,3 @@ df_egre.to_csv(os.path.join(output_dir, "Egreper_LEIDO.csv"),
 
 print("📤 Generado Egreper_LEIDO.csv con separador de miles correcto.")
 print("🏁 Proceso finalizado.")
-
