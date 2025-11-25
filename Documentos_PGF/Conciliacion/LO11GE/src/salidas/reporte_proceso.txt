@@ -1,0 +1,14 @@
+
+REPORTE DE PROCESAMIENTO – 2025-11-25 20:19:49
+
+Total de registros finales: 45
+
+Registros duplicados: 0
+Registros con campos faltantes críticos: 0
+
+Archivos generados:
+- datos_limpios_final.xlsx
+- registros_duplicados.xlsx (si aplica)
+- registros_con_campos_faltantes.xlsx (si aplica)
+
+Ejecución completada correctamente.
